@@ -9,25 +9,39 @@
     </head>
 
     <body>
+
         <div class="nav-bar" id="nav">
-            <div id="logo">
-                <img id = "logo-img" src="PicsArt_04-16-10.29.04.png" alt="logo">
+
+            <div class="logo">
+                <img src="images/PicsArt_04-16-10.29.04.png" alt="">
             </div>
 
-            <div class="gallary">
-                <a href="#page4">gallary</a>
-            </div>
+           <div class="link-container">
+            
+                <div class="link">
+                    <div class="anc">
+                        <a href="#page4">gallary</a>
+                    </div>
+                    <div class="overlay">
+
+                    </div>
+                </div>
     
-            <div class="about-us"> 
-                <a href="about_us.html">about us</a>
-            </div>
+                <div class="link"> 
+                    <div class="anc">
+                        <a href="about_us.html">about us</a>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
     
-            <div class="contact-us">
-                <a href="#footerContainer">Contact us</a>
-            </div>
-            <!-- <div class="sign-in">
-                <a href="SignUp.html">sign in</a>
-            </div> -->
+                <div class="link">
+                    <div class="anc">
+                        <a href="#footerNav">Contact us</a>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+           </div>
+
         </div>
 
 
@@ -50,20 +64,30 @@
             </div>
         </div>
 
+
+
+
         <div class="page2">
             <div class="as">
-                <div class="ls">
-                    <h1>
-                        You can read about all places of india
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti dolorem doloribus quia veniam sapiente harum temporibus quasi, mollitia officia ea rem in esse eaque accusamus provident fuga non illo.
-                    </p>
+                <div class="ls-cont">
+                    <div class="ls">
+                        <h1>
+                            You can read about all places of india
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti dolorem doloribus quia veniam sapiente harum temporibus quasi, mollitia officia ea rem in esse eaque accusamus provident fuga non illo.
+                        </p>
+                    </div>
                 </div>
 
+
                 <div class="rs">
-                    <div class="big">
-                        <img src="images/about us logo.jpeg" alt="">
+                    <div class="blog-background">
+                        <div class="blog-overlay">
+                            <a href="#">
+                                Read our blog
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -84,6 +108,7 @@
                         <div class="place1">
                             <h1>Taj<br> Mahal</h1>
                             <p>Agara,Uttar Pradesh</p>
+                            <a href="#">Know more</a>
                         </div>
                    </div>
 
@@ -92,6 +117,7 @@
                             <h1>Red <br> Fort</h1>
                             <p>Delhi,Delhi
                             </p>
+                            <a href="#">Know more</a>
                         </div>
                    </div>
 
@@ -99,6 +125,7 @@
                         <div class="place3">
                             <h1>Ajanta <br> Cave</h1>
                             <p> Aurangabad ,Maharashtra</p>
+                            <a href="#">Know more</a>
                         </div>
                    </div>
 
@@ -106,14 +133,15 @@
 
                 <div class="exp">
                     <div class="but">
-                        <button type="submit"><a href="explore.html">
-                            EXPLORE
-                        </a></button>
+                        <div class="but-a">
+                            <a href="explore.html">EXPLORE</a>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
+
 
 
 
@@ -134,12 +162,17 @@
             </div>
         </div>
 
+
         <div class="page5">
 
             <div class="state-container">
 
                 <div class="state-head">
-                    <h1>𝕰𝖝𝖕𝖑𝖔𝖗𝖊 𝖘𝖙𝖆𝖙𝖊-𝖜𝖎𝖘𝖊..!</h1>
+                    <div class="type">
+                        <a href="#">
+                            <h1 class=".text">𝕰𝖝𝖕𝖑𝖔𝖗𝖊 𝖘𝖙𝖆𝖙𝖊-𝖜𝖎𝖘𝖊..!</h1>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="state-button">
@@ -149,9 +182,27 @@
                 </div>
 
                 <div class="state-card">
-                    <div class="bihar"></div>
-                    <div class="up"></div>
-                    <div class="maharastra"></div>
+                    <div class="bihar">
+                        <div class="info1">
+                            <h1>Bihar</h1>
+                            <a href="#">Explore</a>
+                        </div>
+                    </div>
+                    <div class="ap">
+                        <div class="info2">
+                            <h1>Andhra pradesh</h1>
+                            <br>
+                            <a href="#">Explore</a>
+
+                        </div>
+                    </div>
+                    <div class="maharastra">
+                        <div class="info3">
+                            <h1>maharashtra</h1>
+                            <a href="#">Explore</a>
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -161,7 +212,7 @@
 
 
         <footer>
-            <div class="footerContainer" id="footerContainer">
+            <div class="footerContainer">
                 <div class="socialIcons">
                     <a href=""><i class="fa-brands fa-facebook"></i></a>
                     <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -169,7 +220,7 @@
                     <a href=""><i class="fa-brands fa-linkedin"></i></a>
                     <a href=""><i class="fa-brands fa-youtube"></i></a>
                 </div>
-                <div class="footerNav">
+                <div class="footerNav" id="footerNav">
                     <ul><li><a href="">Home</a></li>
                         <li><a href="">News</a></li>
                         <li><a href="">About</a></li>
