@@ -65,7 +65,7 @@ This is a travel guide website built with Express, Node.js, and MongoDB. It allo
     "password": "yourpassword"
   }
 
-
+**This project is licensed under the MIT License.**
   
 ### Explanation:
 
