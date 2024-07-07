@@ -1,4 +1,4 @@
-# Travel Guide Website
+# Explore India Website - User Authentication System
 
 This is a travel guide website built with Express, Node.js, and MongoDB. It allows users to explore various travel destinations, read and write reviews, and get detailed information about places to visit.
 
