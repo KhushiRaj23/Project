@@ -1,6 +1,9 @@
 # Explore India
 Welcome to Explore India, your gateway to discovering the rich cultural heritage, breathtaking landscapes, and vibrant cities of India. This README provides a comprehensive overview of the project, including its features, installation instructions, and usage guidelines.
 
+
+<a href="FRONTEND-PROJECT/FrontEndPresentation.pptx" target="_blank">**To know more click here**</a>
+
 ## Table of Contents
 - Features
 - Installation
